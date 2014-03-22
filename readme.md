@@ -8,8 +8,8 @@
 ## インストール(例：Ubuntu)
 ### ダウンロード
 
-	git clone http://www.github.com/
-	cd 
+	git clone https://github.com/ttsasano/HibrainLibrary
+	cd HibrainLibrary
 
 ### C++ライブラリのインストール
 
@@ -48,10 +48,10 @@ OpenRTMのシステムエディタでコンポーネント一覧に表示され�
 ### 独自のコンポーネント作成手順
 未作成．サンプルを参考にして下さい．
 
-## vmc_builderの設定ファイル(YAMLファイル)の仕様
+### vmc_builderの設定ファイル(YAMLファイル)の仕様
 未作成．サンプルを参考にして下さい．
 
-## 独自のビューアの作成手順
+### 独自のビューアの作成手順
 未作成．以下のファイルを参考にして下さい．
 
 * /usr/local/vmc_builder/conf/V_*.yaml
