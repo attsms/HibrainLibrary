@@ -2,14 +2,15 @@
 
 [Hi-brain](http://hi-brain.org)環境下でシミュレート可能なコンポーネント作成支援ツール．
 
-テンプレートクラスを元に各メソッドを実装したモデルソース(C++)と、YAML形式の設定ファイルを作成する
+テンプレートクラスを元に各メソッドを実装したモデルソース(C++)と、YAML形式の設定ファイルを作成し、
+vmc_builder(Python script)を実行することで即Make可能なコンポーネントソース群を生成する．
 
 
 ## インストール(例：Ubuntu)
 ### ダウンロード
 
-	git clone http://www.github.com/
-	cd 
+	git clone https://github.com/ttsasano/HibrainLibrary
+	cd HibrainLibrary
 
 ### C++ライブラリのインストール
 
@@ -48,10 +49,10 @@ OpenRTMのシステムエディタでコンポーネント一覧に表示され�
 ### 独自のコンポーネント作成手順
 未作成．サンプルを参考にして下さい．
 
-## vmc_builderの設定ファイル(YAMLファイル)の仕様
+### vmc_builderの設定ファイル(YAMLファイル)の仕様
 未作成．サンプルを参考にして下さい．
 
-## 独自のビューアの作成手順
+### 独自のビューアの作成手順
 未作成．以下のファイルを参考にして下さい．
 
 * /usr/local/vmc_builder/conf/V_*.yaml
